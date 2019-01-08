@@ -1,0 +1,164 @@
+/*#line{
+  text-align: center;
+  margin-top: 50px;
+}*/
+#map{
+  text-align: center;
+  margin-top: 50px;
+}
+#bar{
+  text-align: center;
+  margin-top: 500px;
+}
+
+#first{
+  margin: 0 auto;
+  height: 1100px;
+  text-align: center;
+}
+
+ h1 {
+        font-size: 150px;
+       width: 100%;
+        font-family: "微软雅黑";
+        color: white;
+        margin-top: -600px;
+        text-shadow: 8px 8px #333;
+
+      }
+
+
+/*map*/
+body {
+        margin: 0 auto;
+        width: 1000;
+            }
+
+            h2 {
+                font-size: 28px;
+        text-align: center;
+        margin-top: 20px;
+            }
+
+            p {
+                font-size: 18px;
+                margin: 10px 0 0 0;
+            }
+
+            svg {
+        background-color: white;
+      }
+      #intro{
+        font-size: 18px;
+        text-indent: 36px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .source{
+        color: rgba(122,122,122,1.00);
+        font-size: 15px;
+       text-align: center;
+      }
+      .credit{
+        color: rgba(122,122,122,1.00);
+        margin-bottom: 10px;
+        font-size: 15px;
+      }
+            .axis path,
+            .axis line {
+              fill: none;
+              stroke: #000;
+              shape-rendering: crispEdges;
+            }
+      .tooltip {
+                position: absolute;
+                z-index: 10;
+        background-color: white;
+        color: black;
+        text-indent: 2px;
+          padding: 1px;
+        margin: 2px;
+        border: rgb(255,97,97) 1px solid;
+            }
+      path {
+        stroke: #fff;
+        stroke-width: .5px;
+
+      }
+
+      .legendLinear text {
+          font-size: 9px;
+      }
+
+
+
+/*line*/
+
+     
+
+
+     /* path.line {
+        fill: none;
+        stroke: orange;
+        stroke-width: 1px;
+      }
+
+      circle, path:hover {
+        cursor: pointer;
+      }
+
+      .axis path,
+      .axis line {
+        fill: none;
+        stroke: black;
+        stroke-width: 1px;
+      }
+
+      .axis text {
+        font-family: sans-serif;
+        font-size: 11px;
+      }
+
+      text.linelabel {
+        font-size: 9pt;
+        fill: #555555;
+      }
+
+      /*CSS about mouse event*/
+     /* #focused {
+        stroke: black;
+        stroke-width: 2px;
+      }
+
+      text.hidden {
+        display: none;
+      }
+
+      text.bolder {
+        font-weight: bolder;
+      }*//**/
+
+/*bar*/
+ /*     body {
+              font: 12px sans-serif;
+              padding: 50px;
+            }*/
+
+            .axis path,
+            .axis line {
+              fill: none;
+              stroke: #000;
+              shape-rendering: crispEdges;
+            }
+
+            .tooltip {
+              position: absolute;
+              z-index: 10;
+            }
+
+            .tooltip p {
+              background-color: white;
+              border: gray 1px solid;
+              padding: 2px;
+              max-width: 180px;
+            }
