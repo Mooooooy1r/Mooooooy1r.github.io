@@ -1,4 +1,4 @@
-     var fullwidth = 1000,
+     var fullwidth = 1500,
             fullheight = 500;
 
         var margin = {top: 20, right: 100, bottom: 30, left: 60},

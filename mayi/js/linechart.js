@@ -7,7 +7,7 @@
 			var width = fullwidth - margin.left - margin.right;
 			var height = fullheight - margin.top - margin.bottom;
 
-			var svg = d3.select("#linechart")
+			var svg_line = d3.select("#linechart")
 						.append("svg")
 						.attr("width", fullwidth)
 						.attr("height", fullheight)
@@ -90,7 +90,7 @@
 					0
 				]);
 
-				var groups = svg.selectAll("g")
+				var groups = svg_line.selectAll("g")
 					.data(dataset)
 					.enter()
 					.append("g");
@@ -172,12 +172,12 @@
 					.on("mouseout",	mouseoutCircle);
 
 // axis here: 
-				svg.append("g")
+				svg_line.append("g")
 					.attr("class", "x axis")
 					.attr("transform", "translate(0," + height + ")")
 					.call(xAxis);
 
-				svg.append("g")
+				svg_line.append("g")
 					.attr("class", "y axis")
 					.call(yAxis);
 
@@ -236,5 +236,5 @@
 
 		    	tooltip.style("display", "none");  
 		    }
-		};
-		linechart()
+		    }
+		    linechart();

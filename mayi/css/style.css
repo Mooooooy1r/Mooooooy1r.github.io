@@ -1,7 +1,7 @@
-/*#line{
+#line{
   text-align: center;
   margin-top: 50px;
-}*/
+}
 #map{
   text-align: center;
   margin-top: 50px;
@@ -97,7 +97,7 @@ body {
      
 
 
-     /* path.line {
+      path.line {
         fill: none;
         stroke: orange;
         stroke-width: 1px;
@@ -124,8 +124,8 @@ body {
         fill: #555555;
       }
 
-      /*CSS about mouse event*/
-     /* #focused {
+/*      CSS about mouse event*/
+      #focused {
         stroke: black;
         stroke-width: 2px;
       }
@@ -136,10 +136,10 @@ body {
 
       text.bolder {
         font-weight: bolder;
-      }*//**/
+      }
 
-/*bar*/
- /*     body {
+
+ /*/*     body {
               font: 12px sans-serif;
               padding: 50px;
             }*/
